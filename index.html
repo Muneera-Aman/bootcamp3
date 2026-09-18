@@ -1,28 +1,603 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Voltix</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-  <section id="why-voltix">
+<body>
+    <header class="voltix-header">
+        <nav class="voltix-navbar">
+            <div class="voltix-logo">
+                <img src="images/logo (2).png" alt="">
+            </div>
+            <ul class="voltix-nav-links">
+                <li>
+                    <a href="#Home" class="voltix-active-link">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#Shop">Shop</a>
+                </li>
+
+                <li>
+                    <a href="#Catagories">
+                        Categories<span class="voltix-plus">+</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#Deals">
+                        Deals
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#New">
+                        New Arrivals
+                    </a>
+                </li>
+            </ul>
+            
+            <!-- icons -->
+            <div class="voltix-nav-icons">
+                <div class="voltix-icon">
+                    <i class="fa-regular fa-user"></i>
+                </div>
+
+                <div class="voltix-icon voltix-badge-container">
+                    <i class="fa-regular fa-heart"></i>
+                    <span class="voltix-badge">
+                        2
+                    </span>
+                </div>
+
+                <div class="voltix-icon voltix-badge-container">
+                    <i class="fa-solid fa-bag-shopping"></i>
+
+                    <span class="voltix-badge">
+                        3
+                    </span>
+                </div>
+            </div>
+        </nav>
+     <hr>
+    </header>
+
+    <main id="Home">
+        <section class="voltix-hero">
+            <div class="voltix-hero-content">
+                <div class="voltix-small-title">
+                    <span class="voltix-small-line"></span>
+                    <span>
+                        PREMIUM SMART TECHNOLOGY
+                    </span>
+                </div>
+
+                <h1 class="voltix-main-title">
+                    Upgrade With
+                    <br>
+                    Smarter Tech
+                </h1>
+
+                <div class="voltix-buttons">
+                    <a href="#" class="voltix-shop-button">
+                        SHOP COLLECTION
+                    </a>
+
+                    <a href="#" class="voltix-explore-button">
+                        EXPLORE COLLECTION
+                    </a>
+                </div>
+            </div>
+
+            <div class="voltix-hero-image">
+                <img src="images/iphone-removebg-preview.png" alt="">
+            </div>
+
+            <div class="voltix-airpods">
+                <img src="images/Screenshot_2026-09-16_095555-removebg-preview.png" alt="AirPods">
+            </div>
+        </section>
+
+        <div class="voltix-features">
+            <div class="voltix-feature-item">
+
+                <span class="voltix-feature-text">
+                    Latest Technology
+                </span>
+
+                <span class="voltix-dot"></span>
+
+            </div>
+
+
+            <div class="voltix-feature-item">
+
+                <span class="voltix-feature-text">
+                    Fast & Secure Delivery
+                </span>
+
+                <span class="voltix-dot"></span>
+
+            </div>
+
+
+            <div class="voltix-feature-item">
+
+                <span class="voltix-feature-text">
+                    Premium Quality Products
+                </span>
+
+                <span class="voltix-dot"></span>
+
+            </div>
+        </div>
+    </main>
+
+    <section id="Catagories" class="category-section">
+        <div class="category-heading">
+            <div class="category-small-title">
+                <span class="category-line"></span>
+                <span>BROWSE</span>
+            </div>
+            <h2>Category</h2>
+        </div>
+
+        <a href="#" class="category-view-all">
+            VIEW ALL
+        </a>
+
+        <div class="category-container">
+
+            <div class="category-card">
+
+                <div class="category-image">
+                    <img src="images/ChatGPT Image Sep 16, 2026, 10_55_42 AM.png" alt="Smart Watches">
+                </div>
+                <div class="category-info">
+
+                    <div>
+                        <h3>Smart Watches</h3>
+                        <p>142 Products</p>
+                    </div>
+
+                    <a href="#" class="category-arrow">
+                        <span class="fa-solid fa-arrow-right"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="category-card">
+
+                <div class="category-image">
+
+
+                    <img src="images/ChatGPT Image Sep 16, 2026, 10_57_10 AM.png" alt="Wireless Earbuds">
+
+                </div>
+                <div class="category-info">
+
+                    <div>
+                        <h3>Wireless Earbuds</h3>
+                        <p>132 Products</p>
+                    </div>
+
+                    <a href="#" class="category-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+            </div>
+            <div class="category-card">
+                <div class="category-image">
+                    <img src="images/ChatGPT Image Sep 16, 2026, 10_58_23 AM.png" alt="Headphones">
+                </div>
+                <div class="category-info">
+                    <div>
+                        <h3>Headphones</h3>
+                        <p>40 Products</p>
+                    </div>
+                    <a href="#" class="category-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="category-card">
+
+                <div class="category-image">
+                    <img src="images/ChatGPT Image Sep 16, 2026, 10_59_43 AM.png" alt="Gaming Gear">
+                </div>
+                <div class="category-info">
+                    <div>
+                        <h3>Gaming Gear</h3>
+                        <p>60 Products</p>
+                    </div>
+                    <a href="#" class="category-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deals Section -->
+    <section id="Shop" class="deals-section">
+        <div class="section-header">
+            <div>
+                <div class="small-title">
+                    DEAL OF THE DAY
+                </div>
+
+                <h1>Today's Great Deals</h1>
+            </div>
+
+            <button class="view-all" id="viewAll">
+                VIEW ALL
+            </button>
+        </div>
+
+        <div class="deals-products">
+            <div class="deals-product-card">
+                <div class="deals-product-image">
+                    <img src="images/airpot.jpe" alt="Nimbus Buds">
+                </div>
+
+                <p class="category">AUDIO</p>
+
+                <h3>Nimbus Buds 3 Noise-Cancel</h3>
+
+                <div class="rating">
+                    <p>
+                        <span class="star">&#9733;</span>
+                        <span class="design">4.8</span>
+                        <span class="designnumber">(312)</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="deals-product-card">
+                <div class="deals-product-image">
+                    <img src="images/headphone.jpe" alt="Aurora Headphones">
+                </div>
+
+                <p class="category">EARBUDS</p>
+
+                <h3>Aurora Pro Wireless Headphone</h3>
+
+                <div class="rating">
+                    <p>
+                        <span class="star">&#9733;</span>
+                        <span class="design">4.8</span>
+                        <span class="designnumber">(312)</span>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="deals-product-card">
+                <div class="deals-product-image">
+                    <img src="images/watch.jpe" alt="Chrono Smartwatch">
+                </div>
+
+                <p class="category">WEARABLES</p>
+
+                <h3>Chrono X Smartwatch</h3>
+
+                <div class="rating">
+                    <p>
+                        <span class="star">&#9733;</span>
+                        <span class="design">4.8</span>
+                        <span class="designnumber">(312)</span>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="deals-product-card">
+                <div class="deals-product-image">
+                    <img src="images/another.jpe" alt="Portable Speaker">
+                </div>
+
+                <p class="category">AUDIO</p>
+
+                <h3>Vertex Portable Bass Speaker</h3>
+
+                <div class="rating">
+                    <p>
+                        <span class="star">&#9733;</span>
+                        <span class="design">4.8</span>
+                        <span class="designnumber">(312)</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mega Banner-->
+    <section class="mega-banner">
+        <img src="images/Screenshot_2026-09-16_093133-removebg-preview.png" alt="Smart device collection"
+            class="person-image">
+
+
+        <div class="banner-content">
+            <div class="small-title banner-title">
+                <span></span>
+                <h3>MEGA COLLECTION</h3>
+            </div>
+
+            <h2>
+                Grab 50% Off the<br>
+                Smart Device Collection
+            </h2>
+
+            <p class="description">
+                Premium audio, wearables, and smart-home gear — <br>
+                curated together at the season's deepest discount.
+            </p>
+
+
+            <button class="shop-button" id="shopButton">
+                SHOP COLLECTION
+            </button>
+
+
+            <div class="features">
+
+                <div class="feature">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    Active Noise Cancel
+                </div>
+
+                <div class="feature">
+                    <i class="fa-solid fa-battery"></i>
+                    40h Battery
+                </div>
+
+                 <div class="break"></div>
+
+                 <div class="feature">
+                    <i class="fa-solid fa-music"></i>
+                    Hi-Res Audio
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <!-- Popular This Week-->
+    <section id="Deals" class="deals-section">
+        <div class="section-header2">
+            <div>
+                <div class="small-title">
+                    TRENDING NOW
+                </div>
+
+                <h1>Popular This Week</h1>
+            </div>
+        </div>
+
+        <div class="deals-products">
+            <div class="deals-product-card">
+                <div class="deals-product-image">
+                    <img src="images/laptop-with-minimalist-design-open-display-keyboard-screen_883101-17332.jpg" alt="Nimbus Buds">
+                </div>
+
+                <p class="category">COMPUTERS</p>
+
+                <h3>Mackbook Air Pro</h3>
+
+                <div class="rating">
+                    <p>
+                        <span class="star">&#9733;</span>
+                        <span class="design">4.8</span>
+                        <span class="designnumber">(312)</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="deals-product-card">
+                <div class="deals-product-image">
+                    <img src="images/headphone.jpe" alt="Aurora Headphones">
+                </div>
+
+                <p class="category">EARBUDS</p>
+
+                <h3>Aurora Pro Wireless Headphone</h3>
+
+                <div class="rating">
+                    <p>
+                        <span class="star">&#9733;</span>
+                        <span class="design">4.7</span>
+                        <span class="designnumber">(540)</span>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="deals-product-card">
+                <div class="deals-product-image">
+                    <img src="images/iphone_17_279e7fee-edd6-4cab-8731-da4377ce67b6.webp" alt="Chrono Smartwatch">
+                </div>
+
+                <p class="category">WEARABLES</p>
+
+                <h3>iphone 17 Pro Max</h3>
+
+                <div class="rating">
+                    <p>
+                        <span class="star">&#9733;</span>
+                        <span class="design">4.9</span>
+                        <span class="designnumber">(208)</span>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="deals-product-card">
+                <div class="deals-product-image">
+                    <img src="images/another.jpe" alt="Portable Speaker">
+                </div>
+
+                <p class="category">AUDIO</p>
+
+                <h3>Vertex Portable Bass Speaker</h3>
+
+                <div class="rating">
+                    <p>
+                        <span class="star">&#9733;</span>
+                        <span class="design">4.6</span>
+                        <span class="designnumber">(176)</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrival-->
+    <section id="New" class="new-arrivals">
+    <div class="arrival-hero">
+
+        <div class="arrival-title">
+            <span>— FRESH DROPS</span>
+            <h2>New Arrival Products</h2>
+        </div>
+
+        <img src="images/DualsenseController-MidnightBlack03-16x9-01-28feb26$en.webp" class="controller" alt="Gaming Controller">
+    </div>
+
+    <div class="products-wrapper">
+        <div class="products">
+            <div class="product-card">
+                <div class="product-image">
+                    <span>NEW</span>
+                    <img src="images/realistic-virtual-headset-augmented-reality_52683-52869.avif" alt="VR Headset">
+                </div>
+
+                <p class="category">IMMERSIVE</p>
+
+                <h3>Halo VR Headset Pro</h3>
+
+                <div class="rating">
+                    <strong>4.8</strong>
+                    <span>(12)</span>
+                </div>
+            </div>
+
+            <div class="product-card">
+
+                <div class="product-image">
+                    <span>NEW</span>
+                    <img src="images/black-headphones-digital-device_53876-96805.avif" alt="Wireless Headphones">
+                </div>
+
+                <p class="category">AUDIO</p>
+
+                <h3>Studio Over-Ear Wireless</h3>
+
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <strong>4.8</strong>
+                    <span>(40)</span>
+                </div>
+
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span>NEW</span>
+                    <img src="images/Computer with a colorful screen.jpg" alt="Gaming Monitor">
+                </div>
+
+                <p class="category">GAMING</p>
+
+                <h3>Vega Console Starter Kit</h3>
+
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <strong>4.9</strong>
+                    <span>(208)</span>
+                </div>
+
+            </div>
+
+            <div class="product-card">
+                <div class="product-image">
+                    <span>NEW</span>
+                    <img src="images/wireless-earbuds-with-neon-cyberpunk-style-lighting_23-2151074308.avif" alt="Gaming Keyboard">
+                </div>
+
+                <p class="category">GAMING</p>
+
+                <h3>Pro Gaming Keyboard</h3>
+
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <strong>4.7</strong>
+                    <span>(36)</span>
+                </div>
+
+            </div>
+
+            <div class="product-card">
+
+                <div class="product-image">
+                    <span>NEW</span>
+                    <img src="images/triple-camera-black-smartphone-concept-mockup_1017-19784.avif" alt="Gaming Mouse">
+                </div>
+
+                <p class="category">GAMING</p>
+
+                <h3>Ultra Wireless Mouse</h3>
+
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <strong>4.8</strong>
+                    <span>(52)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider-buttons">
+        <button id="prevBtn" aria-label="Previous products">
+            ←
+        </button>
+
+        <button id="nextBtn" aria-label="Next products">
+            →
+        </button>
+    </div>
+    </section>
+
+    <section id="why-voltix">
     <div class="why-voltix-grid">
         <div>
             <img src="images/iphone-rotate.png" alt="">
         </div>
         <div>
+            
         <div class="why-voltix-content">
             
-            <div>
-                <span class="voltix-small-line"></span>
-                <h3>WHY VOLTIX</h3>
+             <div>
+                <div class="small-title">
+                    WHY VOLTIX
+                </div>
+
+                <h1>Discover How Innovation <br> 
+                Shapes Everyday Life</h1>
             </div>
 
-            <h1>Discover How Innovation <br> 
-                Shapes Everyday Life</h1>
 
             <p>From the studio to your pocket, we curate the technology that
                 <br> quietly makes each day smarter, calmer, and a little more
@@ -32,112 +607,325 @@
             <button class="why-voltix-btn">OUR STORY</button>
         </div>
     </div>
-  </section>
+    </section>
 
 
-<section class="best-selling">
+    <section class="best-selling">
+        <div class="sale-cards">
+            <div class="sale-card sale-card-black">
+                <img src="images/pc-photo.png" alt="Laptop">
 
-    <div class="sale-cards">
-
-        <div class="sale-card sale-card-black">
-            <img src="images/pc-photo.png" alt="Laptop">
-
-            <div class="sale-text">
-                <span>MEGA SALE</span>
-                <h2>Up to 20% Off</h2>
-            </div>
-        </div>
-
-      
-        <div class="sale-card sale-card-purple">
-            <img src="images/sm-s948_galaxys26ultra_front_cobaltviolet_251120_1.webp" alt="Phone">
-
-            <div class="sale-text">
-                <span>MEGA SALE</span>
-                <h2>Up to 70% Off</h2>
-                <button>SHOP NOW</button>
-            </div>
-        </div>
-
-    </div>
-
-
-    <div class="products">
-
-        <div class="products-heading">
-            <span class="small-title">CUSTOMER FAVORITES</span>
-
-            <h1>Explore Best Selling Products</h1>
-
-            <p>
-                The gear our customers return for – top-rated, tried,
-                and quietly exceptional.
-            </p>
-        </div>
-
-
-        <div class="product-grid">
-
-          
-            <div class="product">
-                <img src="images/laptop-with-minimalist-design-open-display-keyboard-screen_883101-17332.jpg" alt="MacBook">
-                <span>COMPUTERS</span>
-                <h3>Macbook Air Pro</h3>
-                <p>★ 4.8 <small>(312)</small></p>
+                <div class="sale-text">
+                    <span>MEGA SALE</span>
+                    <h2>Up to 20% Off</h2>
+                </div>
             </div>
 
+        
+            <div class="sale-card sale-card-purple">
+                <img src="images/Screenshot__531_-removebg-preview.png" alt="Phone">
 
-            <div class="product">
-                <img src="images/wireless-headphones-mockup-digital-device_53876-184581.avif" alt="Headphones">
-                <span>EARBUDS</span>
-                <h3>Wireless Headphones</h3>
-                <p>★ 4.7 <small>(540)</small></p>
-            </div>
-
-           
-            <div class="product">
-                <img src="images/iphone_17_279e7fee-edd6-4cab-8731-da4377ce67b6.webp" alt="iPhone">
-                <span>WEARABLES</span>
-                <h3>iPhone 17 Pro Max</h3>
-                <p>★ 4.9 <small>(208)</small></p>
-            </div>
-
-            
-            <div class="product">
-                <img src="images/wireless-earbuds-with-neon-cyberpunk-style-lighting_23-2151074308.avif" alt="Earbuds">
-                <span>GADGET</span>
-                <h3>Earbuds 2 pro</h3>
-                <p>★ 4.8 <small>(312)</small></p>
-            </div>
-
-            
-            <div class="product">
-                <img src="images/triple-camera-black-smartphone-concept-mockup_1017-19784.avif" alt="Vivo">
-                <span>DEVICE</span>
-                <h3>Vivo V20 pro</h3>
-                <p>★ 4.7 <small>(540)</small></p>
-            </div>
-
-         
-            <div class="product">
-                <img src="images/images.jfif" alt="Controller">
-                <span>GADGET</span>
-                <h3>Gaming Joystick Device</h3>
-                <p>★ 4.9 <small>(208)</small></p>
+                <div class="sale-text">
+                    <span>MEGA SALE</span>
+                    <h2>Up to 70% Off</h2>
+                    <button>SHOP NOW</button>
+                </div>
             </div>
 
         </div>
-    </div>
 
-</section>
+        <div class="products-area">
+            <div class="section-heading">
+                <div class="small-heading">
+                    <span></span>
+                    <p>CUSTOMER FAVORITES</p>
+                </div>
+
+                <h1>Explore Best Selling Products</h1>
+
+                <p class="description">
+                    The gear our customers return for – top-rated, tried, and quietly exceptional.
+                </p>
+            </div>
+
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/laptop-with-minimalist-design-open-display-keyboard-screen_883101-17332.jpg"Macbook Air Pro">
+                    </div>
+
+                    <p class="category">COMPUTERS</p>
+                    <h3>Macbook Air Pro</h3>
+
+                    <div class="rating">
+                            <span class="star">&#9733;</span>
+                            <span class="design4">4.8</span>
+                            <span class="designnumber">(312)</span>
+                    </div>
+                </div>
+
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/headphone.jpe" alt="Wireless Headphones">
+                    </div>
+
+                    <p class="category">EARBUDS</p>
+                    <h3>Wireless Headphones</h3>
+
+                    <div class="rating">
+                            <span class="star">&#9733;</span>
+                            <span class="design4">4.8</span>
+                            <span class="designnumber">(312)</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/iphone_17_279e7fee-edd6-4cab-8731-da4377ce67b6.webp" alt="iPhone 17 Pro Max">
+                    </div>
+
+                    <p class="category">WEARABLES</p>
+                    <h3>iPhone 17 Pro Max</h3>
+
+                    <div class="rating">
+                            <span class="star">&#9733;</span>
+                            <span class="design4">4.8</span>
+                            <span class="designnumber">(312)</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/wireless-earbuds-with-neon-cyberpunk-style-lighting_23-2151074308.avif" alt="Earbuds 2 pro">
+                    </div>
+
+                    <p class="category">GADGET</p>
+                    <h3>Earbuds 2 pro</h3>
+
+                    <div class="rating">
+                            <span class="star">&#9733;</span>
+                            <span class="design4">4.8</span>
+                            <span class="designnumber">(312)</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/triple-camera-black-smartphone-concept-mockup_1017-19784.avif" alt="Vivo V20 pro">
+                    </div>
+
+                    <p class="category">DEVICE</p>
+                    <h3>Vivo V20 pro</h3>
+
+                    <div class="rating">
+                            <span class="star">&#9733;</span>
+                            <span class="design4">4.8</span>
+                            <span class="designnumber">(312)</span>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/hhhhhhhh.jpg" alt="Gaming Joystick Device">
+                    </div>
+
+                    <p class="category">GADGET</p>
+                    <h3>Gaming Joystick Device</h3>
+
+                    <div class="rating">
+                            <span class="star">&#9733;</span>
+                            <span class="design4">4.8</span>
+                            <span class="designnumber">(312)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-header2">
+                <div>
+                    <div class="small-title">
+                        OUR PARTNERS
+                    </div>
+
+                    <h1>Trusted Partners Worldwide</h1>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="marquee">
+                <div class="marquee-window">
+
+                    <div class="marquee-track">
+                        <span>Cygnus</span>
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+
+                        <span>Lumen</span>
+                        <i class="fa-solid fa-square"></i>
+
+                        <span>Nortech</span>
+                        <i class="fa-solid fa-circle"></i>
+
+                        <span>Quanta</span>
+                        <i class="fa-solid fa-star"></i>
+
+                       <span>Zenith</span>
+                       <i class="fa-regular fa-circle"></i>
+
+                       <span>Cygnus</span>
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+
+                        <span>Lumen</span>
+                        <i class="fa-solid fa-square"></i>
+
+                        <span>Nortech</span>
+                        <i class="fa-solid fa-circle"></i>
+
+                        <span>Quanta</span>
+                        <i class="fa-solid fa-star"></i>
+
+                       <span>Zenith</span>
+                       <i class="fa-regular fa-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <br>
+
+    <!---footer-->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                        <h2 class="logo">Voltix</h2>
+
+                            <p class="brand-desc">
+                            Your trusted destination for premium consumer <br> electronics —
+                            genuine products, careful curation,<br> and support that actually
+                            helps.
+                            </p>
+
+                        <div class="social-icons">
+                            <a href="#" aria-label="Facebook">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </a>
+
+                            <a href="#" aria-label="X (Twitter)">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+
+                            <a href="#" aria-label="Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            
+                            <a href="#" aria-label="youtube">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer-newsletter">
+                        <h3>Join the Newsletter</h3>
+                            <p>
+                            40,000+ subscribers get early drops and quiet, members-only
+                            pricing.
+                            </p>
+
+                        <form class="newsletter-form" id="newsletterForm">
+                            <input type="email" placeholder="Email address" required aria-label="Email address"/>
+                    
+                            <button type="submit" aria-label="Subscribe">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <div class="link-column">
+                        <h4>Categories</h4>
+                        <ul>
+                            <li><a href="#">Smartphones</a></li>
+                            <li><a href="#">Computers</a></li>
+                            <li><a href="#">Headphones</a></li>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Gaming</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="link-column">
+                        <h4>Customer Support</h4>
+                        <ul>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Track Order</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="link-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Partners</a></li>
+                            <li><a href="#">Stores</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="link-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#">Deals</a></li>
+                            <li><a href="#">New Arrivals</a></li>
+                            <li><a href="#">Best Sellers</a></li>
+                            <li><a href="#">Gift Cards</a></li>
+                            <li><a href="#">Wishlist</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="bottom-left">
+                        <div class="payment-methods">
+                            <button class="footer-btn">VISA</button>
+                            <button class="footer-btn">MASTERCARD</button>
+                            <button class="footer-btn">AMEX</button>
+                            <button class="footer-btn">PAYPAL</button>
+                        </div>
+
+                        <div class="language-selector">
+                            <i class="fas fa-globe"></i>
+                            <span>English · USD</span>
+                        </div>
+                    </div>
+
+                    <div class="bottom-right">
+                            <p class="copyright">
+                            &copy; 2026 Voltix Technologies. All rights reserved.
+                            </p>
+                            <div class="legal-links">
+                            <a href="#">Privacy</a>
+                            <a href="#">Terms</a>
+                            <a href="#">Cookies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
     
-
-
-
-
-
-
-
     <script src="script.js"></script>
 </body>
 </html>
