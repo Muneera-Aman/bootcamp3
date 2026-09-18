@@ -48,9 +48,6 @@ const nextBtn = document.getElementById("nextBtn");
 
 let currentPosition = 0;
 
-
-/* Get how many products are visible */
-
 function getVisibleProducts() {
 
     if (window.innerWidth <= 600) {
@@ -65,18 +62,12 @@ function getVisibleProducts() {
 }
 
 
-/* Move products */
-
 function updateSlider() {
-
     const visibleProducts = getVisibleProducts();
-
     const gap = 25;
-
     const cardWidth = productCards[0].offsetWidth;
 
     const maxPosition = productCards.length - visibleProducts;
-
     if (currentPosition > maxPosition) {
         currentPosition = maxPosition;
     }
@@ -89,23 +80,15 @@ function updateSlider() {
         `translateX(-${currentPosition * (cardWidth + gap)}px)`;
 }
 
-
-/* Next button */
-
 nextBtn.addEventListener("click", function () {
-
     const visibleProducts = getVisibleProducts();
 
     if (currentPosition < productCards.length - visibleProducts) {
         currentPosition++;
     }
-
     updateSlider();
 
 });
-
-
-/* Previous button */
 
 prevBtn.addEventListener("click", function () {
 
@@ -118,10 +101,7 @@ prevBtn.addEventListener("click", function () {
 });
 
 
-/* Fix slider when screen size changes */
-
 window.addEventListener("resize", function () {
-
     updateSlider();
 
 });
