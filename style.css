@@ -16,7 +16,7 @@ body {
 
 .voltix-header {
     width: 100%;
-    height: 90px;
+    height: 160px;
     background-color: white;
     border-bottom: 1px solid white;
 }
@@ -37,6 +37,76 @@ body {
 .left-section span,
 .right-section span {
     white-space: nowrap;
+}
+
+.top-bar {
+    width: 100%;
+    height: 25px;
+    background: #111;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 10rem;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+.left-section,
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.left-section a,
+.right-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.left-section span,
+.right-section span {
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .top-bar {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .left-section,
+    .right-section {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .left-section span {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .top-bar {
+        font-size: 12px;
+        gap: 6px;
+    }
+
+    .left-section,
+    .right-section {
+        gap: 6px;
+    }
+
+    .left-section span {
+        line-height: 1.5;
+    }
 }
 
 .voltix-navbar {
@@ -125,7 +195,7 @@ body {
 }
 
 hr {
-   border: 1px solid rgb(246, 246, 246);
+    border: 1px solid rgb(246, 246, 246);
 }
 
 .voltix-hero {
@@ -224,7 +294,7 @@ hr {
     justify-content: center;
 }
 
-.voltix-hero-image img{
+.voltix-hero-image img {
     width: 100%;
     height: 600px;
     object-fit: contain;
@@ -248,7 +318,7 @@ hr {
     position: relative;
     z-index: 10;
     width: 70%;
-    margin:-9% 0 20vh 15vh;
+    margin: -9% 0 20vh 15vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -410,7 +480,7 @@ hr {
     background-color: #eeeeee;
 }
 
- /* Deals Section */
+/* Deals Section */
 .deals-section {
     width: 100%;
     max-width: 1230px;
@@ -656,11 +726,9 @@ hr {
     position: absolute;
     width: 500px;
     height: 500px;
-    background: radial-gradient(
-        circle,
-        rgba(80, 90, 100, 0.2),
-        transparent 70%
-    );
+    background: radial-gradient(circle,
+            rgba(80, 90, 100, 0.2),
+            transparent 70%);
 
     top: -100px;
     right: -100px;
@@ -936,7 +1004,7 @@ hr {
 
 .sale-card-purple img {
     margin-top: 10vh;
-    
+
 }
 
 .sale-card-purple .sale-text {
@@ -1219,21 +1287,17 @@ hr {
     position: relative;
     width: min(1000px, 80%);
     overflow: hidden;
-    mask-image: linear-gradient(
-        to right,
-        transparent 0%,
-        black 12%,
-        black 88%,
-        transparent 100%
-    );
+    mask-image: linear-gradient(to right,
+            transparent 0%,
+            black 12%,
+            black 88%,
+            transparent 100%);
 
-    -webkit-mask-image: linear-gradient(
-        to right,
-        transparent 0%,
-        black 12%,
-        black 88%,
-        transparent 100%
-    );
+    -webkit-mask-image: linear-gradient(to right,
+            transparent 0%,
+            black 12%,
+            black 88%,
+            transparent 100%);
 }
 
 .marquee-track {
